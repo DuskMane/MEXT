@@ -1,4 +1,4 @@
-let apiKey = "af89fcef685d7383e700a74e2b90d887"
+let apiKey = "******"
 let longitute;
 let latitute;
 
