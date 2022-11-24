@@ -1,0 +1,68 @@
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px auto 0px auto;
+}
+.slider ul{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    list-style: none;
+}
+
+.slider ul li {
+    position: relative;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    color: black;
+}
+
+.pg1 {
+    background: red;
+}
+
+.pg2 {
+    background: blue;
+}
+.pg3 {
+    background: purple;
+}
+.pg4 {
+    background: yellow  ;
+}
+
+.control {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background-color: gray;
+    color: white;
+    font-weight: 30;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+h1 {
+    color: red;
+}

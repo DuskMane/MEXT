@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Market</title>
+</head>
+<body>
+    <div class="bg-secondary">
+        <div class="pb-5">
+            <nav id="navigation-bar" class="navbar navbar-expand-sm navbar-light bg-success fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><i class="bi bi-cart-fill"></i> Market</a>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0 text-light">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Merveler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sebzeler</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container text-center bg-primary text-white p-2 rounded mt-4">
+            <h1>Markete Hoş geldiniz,</h1>
+        </div>
+
+
+        <div id="carouselId" class="carousel slide container mt-3" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="https://st.depositphotos.com/3217455/4652/v/950/depositphotos_46529777-stock-illustration-fruits-banner.jpg" class="w-100 d-block" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://st.depositphotos.com/3217455/4653/v/950/depositphotos_46531077-stock-illustration-apple-fruit-banner.jpg" class="w-100 d-block" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://st.depositphotos.com/3217455/4653/v/950/depositphotos_46530401-stock-illustration-pineapple-banner.jpg" class="w-100 d-block" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div id="urunlerimiz" class="container text-center bg-primary text-white p-2 rounded mt-3 mb-3">
+            <h1>Ürünlerimiz</h1>
+        </div>
+        <div class="container">
+        <div id="butonlar" class="text-center">
+            <button class="bg-danger btn m-auto">Meyveler</button>
+            <button class="bg-danger btn m-auto">Sebzeler</button>
+        </div>
+            <div class="row mt-3">
+                <div id="uzum" class="card col-sm-2 text-center mx-auto mt-2" style="width: 270px;">
+                    <div class="card-header"><h3>Üzüm</h3></div>
+                    <img src="https://fruitstore.ththeme.net/wp-content/uploads/2022/02/fruit_36-1024x1024.jpg" class="card-img-top">
+                    <hr/>
+                    <div class="card-body">
+                    <p class="card-text">Fiyat: 10tl</p>
+                    <div>
+                        <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">Satın Al</button>
+                    </div>
+                    </div>
+                </div>
+                <div id="kivi" class="card col-sm-2 text-center mx- mt-2" style="width: 270px;">
+                    <div class="card-header"><h3>Kivi</h3></div>
+                    <img src="https://fruitstore.ththeme.net/wp-content/uploads/2022/02/fruit_18-1024x1024.jpg" class="card-img-top">
+                    <hr/>
+                    <div class="card-body">
+                    <p class="card-text">Fiyat: 10tl</p>
+                    <div>
+                        <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">Satın Al</button>
+                    </div>
+                    </div>
+                </div>
+                <div id="elma" class="card col-sm-2 text-center mx-auto mt-2" style="width: 270px;">
+                    <div class="card-header"><h3>Elma</h3></div>
+                    <img src="https://fruitstore.ththeme.net/wp-content/uploads/2022/02/fruit_10-1024x1024.jpg" class="card-img-top">
+                    <hr/>
+                    <div class="card-body">
+                    <p class="card-text">Fiyat: 10tl</p>
+                    <div>
+                        <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">Satın Al</button>
+                    </div>
+                    </div>
+                </div>
+                <div id="cilek" class="card col-sm-2 text-center mx-auto mt-2" style="width: 270px;">
+                    <div class="card-header"><h3>Çilek</h3></div>
+                    <img src="https://fruitstore.ththeme.net/wp-content/uploads/2022/02/fruit_01-1024x1024.jpg" class="card-img-top">
+                    <hr/>
+                    <div class="card-body">
+                    <p class="card-text">Fiyat: 10tl</p>
+                    <div>
+                        <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">Satın Al</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">Ürünü satın al</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Seçtiğiniz ürünü satın almak istiyor musunuz?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Satın Al</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+    
+    </script>
+</body>
+</html>

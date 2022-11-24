@@ -1,0 +1,39 @@
+img {
+  width: 300px;
+}
+
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+h2 {
+  color: red;
+}
+
+.header {
+  text-align: center;
+}
+
+section {
+  background-color: lightblue;
+}
+
+.purple-highlight {
+  background-color: purple;
+  color: white;
+}
+
+p {
+  margin-left: 30px;
+}
+
+.p-header {
+  text-decoration: underline;
+}
+
+.sub {
+  position: relative;
+  bottom: -1ex;
+  color: red;
+}
